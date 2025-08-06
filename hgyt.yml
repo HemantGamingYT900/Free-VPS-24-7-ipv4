@@ -1,0 +1,5 @@
+sudo apt install net-tools
+sudo apt install ssh
+sudo su 
+bash <(curl -s https://pterodactyl-installer.se)
+systemctl start wings  
